@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 17</title>
+</head>
+<body>
+    <h1>Check result of Task 2 in  console</h1>
+    
+<script>
+    let grand =[12,-3,94,805];
+    for (let i=0; i<grand.length; i++){
+        document.write(`Entry ${i+1} is ${grand[i]}<br>`);
+    }
+</script>
+<script>
+    var entry, store=[], sum=0;
+            do {
+                entry = parseInt(prompt(`Enter the number of entries you have`)); 
+            } while ((entry != entry) || entry < 1);
+            for (let i=0; i<entry; i++){
+                do {
+                store[i] = parseInt(prompt(`Enter entry ${i+1}`)); 
+                } while (entry != entry);
+                sum += store[i];
+            }
+            console.log(`You have entered ${entry} entries in the array [${store}] and the total is ${sum}`);
+</script>
+
+</body>
+</html>
